@@ -1,4 +1,4 @@
-// Vencord db297ed
+// Vencord 5c2ec80
 // Standalone: true
 // Platform: Universal
 // Updater Disabled: false
