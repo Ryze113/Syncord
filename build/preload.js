@@ -1,4 +1,4 @@
-// Vencord 2482038
+// Vencord cf32a8b
 // Standalone: true
 // Platform: Universal
 // Updater Disabled: false

@@ -1,3 +1,5 @@
-src/Vencord/dist/
-src/Installer/build/
+# Source code stays on the build server and is not published to GitHub.
+src/
+!src/.gitkeep
+
 node_modules/

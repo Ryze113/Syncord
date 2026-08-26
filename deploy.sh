@@ -81,7 +81,8 @@ fi
 info "Pushing build to GitHub"
 (
     cd "$REPO_DIR"
-    git add .
+    git rm -r --cached --ignore-unmatch src >/dev/null 2>&1 || true
+    git add . ':!src'
     if git diff --cached --quiet; then
         printf 'No changes to push.\n'
         exit 0
