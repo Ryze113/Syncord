@@ -1,4 +1,4 @@
-// Vencord f62ac35
+// Vencord db297ed
 // Standalone: true
 // Platform: Universal
 // Updater Disabled: false
