@@ -1,4 +1,4 @@
-// Vencord 455f867
+// Vencord fde5218
 // Standalone: true
 // Platform: Universal
 // Updater Disabled: false
