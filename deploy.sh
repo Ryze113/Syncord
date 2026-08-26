@@ -6,6 +6,7 @@ WORKSPACE_DIR="$(cd -- "$SCRIPT_DIR/.." && pwd)"
 SOURCE_DIR="${SOURCE_DIR:-$SCRIPT_DIR/src/Vencord}"
 SYNCORD_DIR="${SYNCORD_DIR:-$SCRIPT_DIR/src/Installer}"
 OUTPUT_DIR="${OUTPUT_DIR:-$SCRIPT_DIR/build}"
+EXE_DIR="${EXE_DIR:-$SCRIPT_DIR/exe}"
 REPO_DIR="${REPO_DIR:-$SCRIPT_DIR}"
 PUSH="${PUSH:-1}"
 COMMIT_MESSAGE="${COMMIT_MESSAGE:-Build Syncord $(date -u +%Y-%m-%dT%H:%M:%SZ)}"
@@ -82,7 +83,9 @@ info "Pushing build to GitHub"
 (
     cd "$REPO_DIR"
     git rm -r --cached --ignore-unmatch src >/dev/null 2>&1 || true
-    git add -A -- build settings deploy.sh README.md .gitignore
+    public_paths=(build exe deploy.sh README.md .gitignore)
+    [[ -e settings ]] && public_paths+=(settings)
+    git add -A -- "${public_paths[@]}"
     if git diff --cached --quiet; then
         printf 'No changes to push.\n'
         exit 0

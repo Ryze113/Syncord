@@ -12,6 +12,7 @@ github/
     Vencord/
     Installer/
   build/
+  exe/              # Windows installer executables
   settings/
 ```
 
@@ -31,7 +32,7 @@ chmod +x github/deploy.sh
 PUSH=0 ./github/deploy.sh
 ```
 
-The build output is written to `build`. The running updater downloads its files directly from the GitHub `build` directory. The complete source in `src` is intentionally ignored and is not published.
+The server build output is written to `build`. The Windows installer is kept separately in `exe`. The running updater downloads its files directly from the GitHub `build` directory. The complete source in `src` is intentionally ignored and is not published.
 
 The source must remain on the server at `src/Vencord` and `src/Installer`, because `deploy.sh` builds from those directories. Do not delete `src` on the server.
 
