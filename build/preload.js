@@ -1,4 +1,4 @@
-// Vencord fde5218
+// Vencord f62ac35
 // Standalone: true
 // Platform: Universal
 // Updater Disabled: false
