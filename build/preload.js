@@ -1,4 +1,4 @@
-// Vencord d70b85a
+// Vencord d47b2e3
 // Standalone: true
 // Platform: Universal
 // Updater Disabled: false
