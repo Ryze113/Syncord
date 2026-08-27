@@ -1,4 +1,4 @@
-// Vencord a602e20
+// Vencord 7d49977
 // Standalone: true
 // Platform: Universal
 // Updater Disabled: false
