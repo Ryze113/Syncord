@@ -1,4 +1,4 @@
-// Vencord 2a4a1f3
+// Vencord b518bfa
 // Standalone: true
 // Platform: Universal
 // Updater Disabled: false
