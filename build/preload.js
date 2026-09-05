@@ -1,4 +1,4 @@
-// Vencord e45c2d1
+// Vencord 95e389e
 // Standalone: true
 // Platform: Universal
 // Updater Disabled: false
