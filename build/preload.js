@@ -1,4 +1,4 @@
-// Vencord 3560dc0
+// Vencord e45c2d1
 // Standalone: true
 // Platform: Universal
 // Updater Disabled: false
