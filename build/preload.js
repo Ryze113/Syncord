@@ -1,4 +1,4 @@
-// Vencord a40a4bc
+// Vencord 3560dc0
 // Standalone: true
 // Platform: Universal
 // Updater Disabled: false
